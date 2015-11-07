@@ -1,3 +1,13 @@
 ﻿body {
   font-family: "Roboto", "sans-serif", "arial"
+  background-image:"icon.png"
+  }
+
+nav li {
+  text-align:"center"
+  }
+
+header {
+  background-color:"#2F2F5A"
+  text-color:"white"
   }
