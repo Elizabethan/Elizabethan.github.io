@@ -7,6 +7,11 @@ body {
   background-image: icon.png;
   }
 
+h1 a {
+  text-decoration: none;
+  color: white;
+  }
+
 nav {
   text-align: center;
   text-size: 40px;
