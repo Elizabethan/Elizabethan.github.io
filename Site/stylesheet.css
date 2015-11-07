@@ -24,9 +24,9 @@ nav ul {
 header {
   background-color: #2F2F5A;
   color: white;
-  padding: 0;
   width: 100%;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  padding: 20px;
   }
