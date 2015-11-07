@@ -1,13 +1,32 @@
-﻿body {
-  font-family: "Roboto", "sans-serif", "arial"
-  background-image:"icon.png"
+﻿* {
+  font-family: "Roboto", "sans-serif", "arial";
+  width: 100%;
   }
 
-nav li {
-  text-align:"center"
+body {
+  background-image: icon.png;
+  }
+
+nav {
+  text-align: center;
+  text-size: 40px;
+  }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  }
+
+nav ul {
+  list-style-type: none;
   }
 
 header {
-  background-color:"#2F2F5A"
-  text-color:"white"
+  background-color: #2F2F5A;
+  color: white;
+  padding: 0;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   }
