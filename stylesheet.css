@@ -1,3 +1,8 @@
-﻿body {
+* {
+  margin-top: 100px;
   font-family: "Roboto", "sans-serif", "arial"
-  }
+  text-align: center;
+  font-weight: 100;
+}
+
+  
