@@ -4,30 +4,43 @@
   }
 
 body {
-  background-image: icon.png;
+  background-image: "icon.png";
   }
 
-nav {
-  text-align: center;
-  text-size: 40px;
-  }
-
-nav a {
-  text-decoration: none;
-  color: white;
-  }
-
-nav ul {
-  list-style-type: none;
-  }
 
 header {
   background-color: #2F2F5A;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   color: white;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
-  padding: 20px;
+  padding: auto;
   float: left;
+  position: fixed;
+  box-shadow: 0 8px 8px 0px #cccccc;
+  }
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 21px;
+  padding-left: 21px;
+  display: inline-block;
+  text-align: center;
+  }
+
+nav a:hover {
+  color: white;
+  background-color: #32325D;
+  }
+
+nav ul {
+  list-style-type: none;
   }
